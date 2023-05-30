@@ -1,0 +1,16 @@
+#include <math.h>
+#include <stdio.h>
+
+int main() {
+    double num1 = sqrt(5 + 5 + pow(5, 2)); 
+
+    double den1 = sqrt(7 + 7 + pow(7, 2)); 
+
+    double num2 = sqrt(6 + 6 + pow(6, 2)); 
+
+    double den2 = sqrt(9 + 9 + pow(9, 2)); 
+
+    double result = (num1 / den1) + (num2 / den2); 
+    printf("Результат: %f", result); 
+
+    return 0; 
